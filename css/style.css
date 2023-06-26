@@ -82,7 +82,7 @@ li{
 
 .bee-row-content .bee-col-w12 {
     flex-basis: 100%;
-    padding:20px 60px 0 60px;
+    padding:20px 20px 0 20px;
 }
 
 .bee-button a{
@@ -101,7 +101,8 @@ li{
     border-radius: 4px; 
     max-width: 100%; 
     padding: 10px 40px;
-    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 0;
     width: auto; 
     display: inline-block;
 }
@@ -360,6 +361,9 @@ li{
     }
     .bee-row-content{
         display: block;
+    }
+    .bee-field > .bee-button a{
+        margin-top: 10px;
     }
     .flex{display: block;}
     .bee-row-1 .bee-col-2 .bee-block-1 .bee-hamburger-controls {
