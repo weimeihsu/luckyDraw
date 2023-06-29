@@ -47,6 +47,9 @@ h2{
     color: #10404f;
     line-height: 32px;
 }
+h3{
+    margin: 10px;
+}
 ol{
     padding-left: 20px;
 }
@@ -217,7 +220,14 @@ li{
 .bee-text {
     overflow-wrap: anywhere
 }
-
+.bee-block-winner{
+    padding:20px 0;
+    border-bottom: 1px solid #fdbb41;
+}
+.bee-text-content-winner .name{
+    margin: 5px 10px;
+    display: inline-block;
+}
 .bee-row-2 .bee-row-content,
 .bee-row-4 .bee-row-content,
 .bee-row-5 .bee-row-content{
@@ -294,17 +304,12 @@ li{
 
 .bee-row-7 .bee-row-content {
     background-color: #fff3d8;
-    background-repeat: no-repeat;
-    color: #000
 }
 
 .bee-row-7 .bee-col-1,
 .bee-row-7 .bee-col-2 {
     background-color: #fff3d8;
-    border-bottom: 5px solid #fff;
-    border-left: 5px solid #fff;
-    border-right: 5px solid #fff;
-    border-top: 5px solid #fff
+
 }
 
 .bee-row-7 .bee-col-1 .bee-block-3,
