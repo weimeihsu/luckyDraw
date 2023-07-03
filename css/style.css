@@ -41,6 +41,16 @@ p {
     font-size: 16px;
     color: #10404f;
 }
+.popup{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, .3);
+    border-radius: 4px;
+}
+.popup img{
+    max-width: 100%;
+}
 h2{
     font-size: 28px;
     font-weight: 700;
