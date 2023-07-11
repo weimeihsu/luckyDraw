@@ -41,6 +41,7 @@ p {
     font-size: 16px;
     color: #10404f;
 }
+
 .popup{
     width: 400px;
     margin: 0 auto;
@@ -159,6 +160,10 @@ li{
 }
 .flex{
     display: flex;
+}
+.d-col{
+    flex-direction: column;
+    width: 400px;
 }
 .bee-form .bee-form-row .bee-inline-field {
     flex-wrap: nowrap;
@@ -328,7 +333,7 @@ li{
 }
 
 .bee-row-9 .bee-col-1,
-.bee-row-9 .bee-col-2 {
+.bee-row-9 .bee-col-2, .b-bg {
     background-color: #50bce5
 }
 
@@ -425,6 +430,11 @@ li{
     display: inline-block;
     width: 100%
 }
+.bee-row-9 .bee-col-2 .bee-block-4 >.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .bee-row-9 .bee-col-2 .bee-block-4 div.label,
 .bee-row-9 .bee-col-2 .bee-block-4 label {
@@ -478,6 +488,11 @@ li{
 
 .bee-row-9 .bee-col-2 .bee-block-4 input:not([type=checkbox]):not([type=radio]):focus {
     outline-color: #fdbb41
+}
+.center{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .bee-submit{
