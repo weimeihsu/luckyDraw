@@ -81,24 +81,29 @@ li{
 }
 .w1-gbcolor{
     background-color: #bfb18a;
+    /* #b3a16f */
 }
 .pattern2{
     background: url(../images/pattern_2.jpg) repeat-x fixed;
+    
 }
 .w2-gbcolor{
     background-color: #96a8c1;
+   /* #8399b9 */
 }
 .pattern3{
     background: url(../images/pattern_3.jpg) repeat-x fixed;
 }
 .w3-gbcolor{
     background-color: #95bad4;
+     /* #7ea9c7 */
 }
 .pattern4{
     background: url(../images/pattern_4.jpg) repeat-x fixed;
 }
 .w4-gbcolor{
     background-color: #8a9965;
+    /* #819453 */
 }
 .bee-row-content .bee-col-w3 {
     flex-basis: 25%
